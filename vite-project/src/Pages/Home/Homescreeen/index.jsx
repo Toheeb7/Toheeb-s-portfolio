@@ -1,4 +1,6 @@
+import AboutMe from "../AboutMe";
 import Herosection from "../Herosection";
+import Myportfolio from "../Myportfolio";
 import MySkills from "../Myskill";
 
 export default function Home(){
@@ -6,6 +8,8 @@ export default function Home(){
         <>
          <Herosection/>
          <MySkills/>
+         <AboutMe/>
+         <Myportfolio/>
         </>
        
         

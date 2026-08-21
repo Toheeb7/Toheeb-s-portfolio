@@ -4,6 +4,7 @@ import "./App.css"
 import Navbar from "./Pages/Home/Navbar";
 import Home from "./Pages/Home/Homescreeen";
 import Herosection from "./Pages/Home/Herosection";
+
 function App() {
   return (
  <div className="App">
