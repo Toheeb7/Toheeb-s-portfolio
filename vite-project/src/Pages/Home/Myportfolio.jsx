@@ -1,7 +1,7 @@
 import data from '../../data/index.json'
 
 export default function Myportfolio(){
-    return 
+    return (
         <section className='portfolio--section' id='Myportfolio'>
             <div className='portfolio--container--box'>
                 <div className='portfolio--container'>
@@ -26,10 +26,11 @@ export default function Myportfolio(){
             <div className='portfolio--section--container'>
                 
                     {
-                        data?.portfolio?.map[(item, index) => (
+                        data?.portfolio?.map(
+                            (item, index) => (
                             <div key={index} className='portfolio--section--card'>
                                 <div className='portfolio--section--img'>
-                                    <img src="{item.src}" alt="Placeholder" />
+                                    <img src={item.src} alt="Placeholder" />
 
                                 </div>
                                 <div className='portfolio--section--card--content'>
@@ -49,7 +50,8 @@ export default function Myportfolio(){
                                 </div>
 
                             </div>
-                        )]
+                        )
+                        )
                     }
                 
 
@@ -57,5 +59,5 @@ export default function Myportfolio(){
             </div>
 
         </section>
-    
+)
 }

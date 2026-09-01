@@ -33,8 +33,8 @@ function Navbar() {
     },[]);
    return(
     <nav className={`navbar ${navActive ? "active" : ''}`}>
-<div>
-    <img src="./img/logo.svg" alt="logo ipsum" />
+<div className="personal">
+    <h3>Toheeb's Portfolio</h3>
 </div>
 
         <a className={`nav_hamburger ${navActive ? "active" : ''}`} onClick={toggleNav}>
@@ -51,7 +51,7 @@ function Navbar() {
                     smooth={true}
                     offset={-70}
                     duration={500}
-                    to='heroSection'
+                    to='HeroSection'
                     className="navbar--content">
                     Home
                     </Link>
@@ -64,7 +64,7 @@ function Navbar() {
                     smooth={true}
                     offset={-70}
                     duration={500}
-                    to='MyPortfolio'
+                    to='Myportfolio'
                     className="navbar--content">
                     Portfolio
                     </Link>
@@ -77,7 +77,7 @@ function Navbar() {
                     smooth={true}
                     offset={-70}
                     duration={500}
-                    to='About Me'
+                    to='AboutMe'
                     className="navbar--content">
                     About Me
                     </Link>
@@ -90,7 +90,7 @@ function Navbar() {
                     smooth={true}
                     offset={-70}
                     duration={500}
-                    to='Testimonials'
+                    to='testimonial'
                     className="navbar--content">
                     Testimonials
                     </Link>
@@ -105,7 +105,7 @@ function Navbar() {
                     offset={-70}
                     duration={500}
                     to='Contact'
-                    className="btn btn-outline-primary"
+                    className="btn-contact"
         >Contact me</Link>
     </nav>
    )
