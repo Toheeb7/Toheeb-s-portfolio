@@ -38,55 +38,7 @@
                  
             </div>
 
-            <div className="hero--section--content--box--file">
-                        <div className="my--Expertise">
-                           <h3>
-                            
-                            HTML
-                             <i class="devicon-html5-plain colored"></i>
-                            </h3>
-                           
-                           <h3>
-                           
-                            BOOTSTRAP
-                             <i class="devicon-bootstrap-plain colored"></i>
-                            </h3>
-                           
-                           <h3>
-                            REACT
-                            <i class="devicon-react-original colored"></i>
-                            </h3>
-                           
-                           <h3>
-                            EXPRESS
-                            <i class="devicon-express-original"></i>
-
-                            </h3>
-                           
-                           <h3>VS.CODE
-                            <i class="devicon-vscode-plain colored"></i>
-                           </h3>
-                        </div>
-                          <div className="my--Expertise">
-                           
-                           <h3>CSS
-                            <i class="devicon-css3-plain colored"></i>
-                           </h3>
-                           
-                           <h3>JAVASCRIPT
-                              <i class="devicon-javascript-plain colored"></i>
-                           </h3>
-                           
-                           <h3>
-                            NODE
-                              <i class="devicon-nodejs-plain colored"></i>
-                           </h3>
-                           
-                           <h3>GIT<i class="devicon-git-plain colored"></i>
-                           </h3>
-                           
-                        </div>
-            </div>
+            
          
         </section>
     )

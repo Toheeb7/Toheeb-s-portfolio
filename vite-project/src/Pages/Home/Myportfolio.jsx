@@ -1,4 +1,6 @@
+import { Link } from 'react-router-dom'
 import data from '../../data/index.json'
+import { MdArrowOutward } from "react-icons/md";
 
 export default function Myportfolio(){
     return (
@@ -6,26 +8,21 @@ export default function Myportfolio(){
             <div className='portfolio--container--box'>
                 <div className='portfolio--container'>
                     <p className='sub--title'>
-                        Recent Project
+                        Recent Works
 
                     </p>
-                    <h2 className='section--heading'>
-                        My Portfolio
+                    <h1 className='section--heading'>
+                        Selected Projects
 
-                    </h2>
+                    </h1>
 
                 </div>
-                <div>
-                    <button className='btn btn-github' >
-                        Visit My Github
-                    
-                    </button>
-                </div>
+                
 
             </div>
             <div className='portfolio--section--container'>
                 
-                    {
+                 {
                         data?.portfolio?.map(
                             (item, index) => (
                             <div key={index} className='portfolio--section--card'>
@@ -43,9 +40,10 @@ export default function Myportfolio(){
 
                                         </p>
                                     </div>
-                                    <p className='text--sm--portfolio--link'>
-
-                                    </p>
+                                   <button className='btn--star' >
+                                    <Link to={"https://e-commerce-page-9kkq.vercel.app/"} className='btn--link'>Live preview
+                                    <span className='arrow'><MdArrowOutward /></span></Link>
+                                   </button>
 
                                 </div>
 
