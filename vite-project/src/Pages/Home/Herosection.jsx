@@ -51,7 +51,16 @@ function Herosection() {
               </Link>
             </button>
             <button className="btn-g btn-start">
-              start a project <MdArrowOutward />
+              <Link
+                activeClass="navbar--active-content"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                to="Contact"
+              >
+                start a project <MdArrowOutward />
+              </Link>
             </button>
           </div>
         </div>
