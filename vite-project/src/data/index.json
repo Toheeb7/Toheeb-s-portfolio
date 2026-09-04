@@ -1,72 +1,87 @@
 {
-    
-
-    "portfolio":[
-        { "id":"1",
-        "src":"./img/screen.png",
-        "title":"E-commerce webpage",
-        "description":"A responsive React e-commerce platform with product browsing, search, categories, favorites, and shopping cart functionality."
-        
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "./img/screen.png",
+      "title": "E-commerce webpage",
+      "description": "A responsive React e-commerce platform with product browsing, search, categories, favorites, and shopping cart functionality.",
+      "first": "https://e-commerce-page-9kkq.vercel.app/",
+      "second": "https://github.com/Toheeb7"
     },
 
-        { "id":"2",
-        "src":"./img/placeholder-image (1).png",
-        "title":"Streaming sit",
-        "description":"Lorem ipsum dolor"
-        },
+    {
+      "id": "2",
+      "src": "./img/placeholder-image (1).png",
+      "title": "Streaming sit",
+      "description": "Lorem ipsum dolor"
+    },
 
-        { "id":"3",
-        "src":"./img/placeholder-image.png",
-        "title":"Notes-app",
-        "description":"Lorem ipsum dolor"
-        },
+    {
+      "id": "3",
+      "src": "./img/placeholder-image.png",
+      "title": "Notes-app",
+      "description": "Lorem ipsum dolor"
+    },
 
-        { "id":"4",
-        "src":"./img/product-chain-1 (1).png",
-        "title":"Blogger-app",
-        "description":"Lorem ipsum dolor"
-        }
+    {
+      "id": "4",
+      "src": "./img/product-chain-1 (1).png",
+      "title": "Blogger-app",
+      "description": "Lorem ipsum dolor"
+    },
+    {
+      "id": "5",
+      "src": "./img/product-chain-1 (1).png",
+      "title": "Blogger-app",
+      "description": "Lorem ipsum dolor"
+    },
+    {
+      "id": "6",
+      "src": "./img/product-chain-1 (1).png",
+      "title": "Blogger-app",
+      "description": "Lorem ipsum dolor"
+    }
+  ],
 
-    ],
-       
-    "testimonial":[
-        { "id":"1",
-        "count":"5",
-        "src":"./img/avatar-image (1).png",
-        
-        "description":"Lorem ipsum dolor",
-       "author name" :"Diane Russell",
-       "Author description":"starbucks"
-        },
+  "testimonial": [
+    {
+      "id": "1",
+      "count": "5",
+      "src": "./img/avatar-image (1).png",
 
-        { "id":"2",
-        "count":"5",
-        "src":"./img/avatar-image-2 (1).png",
-        
-        "description":"Lorem ipsum dolor",
-       "author name" :"Diane Russell",
-       "Author description":"starbucks"
-        },
+      "description": "Lorem ipsum dolor",
+      "author name": "Diane Russell",
+      "Author description": "starbucks"
+    },
 
-        { "id":"3",
-      "count":"5",
-        "src":"./img/thepage.png",
-        
-        "description":"Lorem ipsum dolor",
-       "author name" :"Diane Russell",
-       "Author description":"starbucks"
-        },
+    {
+      "id": "2",
+      "count": "5",
+      "src": "./img/avatar-image-2 (1).png",
 
-        { "id":"4",
-       "count":"5",
-        "src":"./img/avatar-image (1).png",
-        
-        "description":"Lorem ipsum dolor",
-       "author name" :"Diane Russell",
-       "Author description":"starbucks"
-        }
+      "description": "Lorem ipsum dolor",
+      "author name": "Diane Russell",
+      "Author description": "starbucks"
+    },
 
-    ]
-       
-    
+    {
+      "id": "3",
+      "count": "5",
+      "src": "./img/thepage.png",
+
+      "description": "Lorem ipsum dolor",
+      "author name": "Diane Russell",
+      "Author description": "starbucks"
+    },
+
+    {
+      "id": "4",
+      "count": "5",
+      "src": "./img/avatar-image (1).png",
+
+      "description": "Lorem ipsum dolor",
+      "author name": "Diane Russell",
+      "Author description": "starbucks"
+    }
+  ]
 }
